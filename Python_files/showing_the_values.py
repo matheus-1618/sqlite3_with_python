@@ -20,7 +20,7 @@ z=c.fetchall()
 print(z)
 
 #getting the primary key of the rows
-c.execute("SELECT rowid,* FROM ter2")
+c.execute("SELECT * FROM ter2")
 k=c.fetchall()
 print(k)
 
