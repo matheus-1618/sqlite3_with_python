@@ -4,6 +4,6 @@ VALUES
 (1434,'Gucci','Slippery','DarkPink');
 
 INSERT INTO CLOTHES1
-(ID,Brand,Type,Color)
+(Brand,Type,Color)
 VALUES
-(1434,'Gucci','Slippery','DarkPink');
+('Gucci',34,'DarkPink');
