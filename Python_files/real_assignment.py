@@ -1,6 +1,6 @@
 import sqlite3
 #connecting with the database
-conn=sqlite3.connect('assignment1.sqlite')
+conn=sqlite3.connect('Python_files/assignment1.sqlite')
 #selecting the cursor
 cur=conn.cursor()
 #dropping existing tables
@@ -15,7 +15,7 @@ file_name = input('Enter file name: ')
 if (len(file_name) < 1): file_name = 'mbox.txt'
 
 #open the file in the directory with the organizations
-with open(file_name,'r') as file:
+with open('Python_files/'+file_name,'r') as file:
 
     #getting the lines in the file
     for line in file:
