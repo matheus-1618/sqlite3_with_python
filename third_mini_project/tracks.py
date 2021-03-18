@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import sqlite3
 
 #connecting and hosting the database
-conn = sqlite3.connect('trackdb.sqlite')
+conn = sqlite3.connect('third_mini_project/trackdb.sqlite')
 cur = conn.cursor()
 
 # Make some fresh tables using executescript()
